@@ -4,6 +4,7 @@ services:
 
   proxy:
     image: jwilder/nginx-proxy
+    container_name: proxy
     ports:
       - 80:80
     volumes:
